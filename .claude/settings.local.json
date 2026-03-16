@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --force)",
+      "Bash(npm install)",
+      "Bash(npm install next@latest)",
+      "Bash(npx prisma generate)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm run build)",
+      "Bash(pg_isready)",
+      "Bash(psql --version)",
+      "Bash(where psql)",
+      "Bash(sc query postgresql*)",
+      "Bash(sc query \"postgresql\")",
+      "Bash(Get-Service -Name \"postgresql*\")",
+      "Bash(npx prisma db seed)",
+      "Bash(cat C:/Users/SURFACE/Desktop/rushana/src/app/\\\\\\(customer\\\\\\)/layout.tsx)",
+      "Bash(mkdir -p C:/Users/SURFACE/Desktop/rushana/src/app/api/restaurants/[id]/menu)",
+      "Bash(mkdir -p \"C:/Users/SURFACE/Desktop/rushana/src/app/\\(customer\\)/restaurants/[id]\")",
+      "Bash(npm install next-auth@beta @auth/prisma-adapter)",
+      "Bash(npx prisma db push)",
+      "Bash(node -e \"const na = require\\(''./node_modules/next-auth/package.json''\\); const ap = require\\(''./node_modules/@auth/prisma-adapter/package.json''\\); const ac = require\\(''./node_modules/@auth/core/package.json''\\); console.log\\(''next-auth:'', na.version\\); console.log\\(''@auth/prisma-adapter:'', ap.version\\); console.log\\(''@auth/core \\(root\\):'', ac.version\\); console.log\\(''@auth/core \\(next-auth bundled\\):'', require\\(''./node_modules/next-auth/node_modules/@auth/core/package.json''\\).version\\);\")",
+      "Bash(ls \"C:/Users/SURFACE/Desktop/rushana/src/app/\\(customer\\)/\")",
+      "Bash(ls \"C:/Users/SURFACE/Desktop/rushana/src/app/\\(customer\\)/orders/\")",
+      "Bash(cat \"C:/Users/SURFACE/Desktop/rushana/src/app/\\(customer\\)/orders/page.tsx\")",
+      "Bash(type \"C:\\\\Users\\\\SURFACE\\\\Desktop\\\\rushana\\\\src\\\\app\\\\\\(customer\\)\\\\restaurants\\\\[id]\\\\page.tsx\")",
+      "Bash(npx tsc --noEmit --skipLibCheck)"
+    ]
+  }
+}
